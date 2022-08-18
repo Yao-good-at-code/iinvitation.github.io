@@ -1,37 +1,62 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Project: Event invite"</title>
+        <style>
+         body { background-color:RGB(145,150,80);}
+         
+            h1{
+             color:white;
+            }
+         
+         #id{font-size:18;}
+         
+         #top{
+             width:300px;
+             margin-left:100px;
+             color:white;
+             padding-left:10px;
 
-You can use the [editor on GitHub](https://github.com/Yao-good-at-code/iinvitation.github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Yao-good-at-code/iinvitation.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+         }
+         
+         #info{
+             background:RGB(177,180,121);
+             width:300px;
+             margin-left:100px;
+             color:rgb(75,78,42);
+             padding-left:10px;
+         }
+         
+         #pic{
+             margin-left:150px;
+         }
+         
+         #time{
+             font-style:bold;
+         }
+         
+        </style>
+    </head>
+    <body>
+        
+        <h1>Event in Nanmu Changsha</h1>
+        
+    <div id="pic"> <img src="https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/seasonal/xmas-tree.png" width="150" height="200"></div>
+        <div id="top"><p id="word">There are many ways we can meet new people. For us ,the way is writing. Modern society is full of disire and ansiety; and we fight with the world in a silent way----writing. </p></div>
+        
+        <div id="info">
+        <p>Things you need to bring:</p>
+        <ul>
+            <li>Your favorite book</li>
+            <li>A poem about yourselft</li>
+            <li>Happy and relaxed mood</li>
+        </ul>
+   
+        <ul>
+            <li><span id="time">Time: 2022/08/18 18:00</span></li>
+            <li>Location: CBD of Changsha</li>
+        </ul>
+        </div>
+    </body>
+</html>
